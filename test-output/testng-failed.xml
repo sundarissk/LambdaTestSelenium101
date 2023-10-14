@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="safari"/>
+  <parameter name="version" value="16.0"/>
+  <parameter name="platform" value="macOS Ventura"/>
+  <test name="Chrome Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="119.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="BaseLambda.ScenarioDemo"/>
+    </classes>
+  </test> <!-- Chrome Test -->
+  <test name="Safari Test">
+    <parameter name="browser" value="safari"/>
+    <parameter name="version" value="16.0"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <classes>
+      <class name="BaseLambda.ScenarioDemo"/>
+    </classes>
+  </test> <!-- Safari Test -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
