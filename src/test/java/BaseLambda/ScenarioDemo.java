@@ -138,6 +138,14 @@ public class ScenarioDemo {
 
 		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
 
+		// Validating tooltip message in form
+		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
+		String msg = driver.findElement(By.id("name")).getAttribute("validationMessage");
+		String emsg = "Please fill out this field.";
+		System.out.println(msg);
+		Assert.assertEquals(msg, emsg);
+		System.out.println("Validation Message Passed");
+
 		// Entering fields values in form
 		driver.findElement(By.id("name")).sendKeys("abcd");
 		driver.findElement(By.id("inputEmail4")).sendKeys("abcd@gmail.com");
