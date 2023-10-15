@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="6" passed="6" failed="0" skipped="0">
+<testng-results total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-14T12:24:03Z" name="Parallel Test Suite" finished-at="2023-10-14T12:25:11Z" duration-ms="67289">
+  <suite started-at="2023-10-15T00:28:16Z" name="Parallel Test Suite" finished-at="2023-10-15T00:28:52Z" duration-ms="36244">
     <groups>
     </groups>
-    <test started-at="2023-10-14T12:24:03Z" name="Chrome Test" finished-at="2023-10-14T12:24:31Z" duration-ms="27351">
+    <test started-at="2023-10-15T00:28:16Z" name="Chrome Test" finished-at="2023-10-15T00:28:28Z" duration-ms="12696">
       <class name="BaseLambda.ScenarioDemo">
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:03Z" name="SetUp" finished-at="2023-10-14T08:24:12Z" duration-ms="8290" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T20:28:16Z" name="SetUp" finished-at="2023-10-14T20:28:22Z" duration-ms="6903" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,77 +28,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="SimpleFormDemo()[pri:1, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:12Z" name="SimpleFormDemo" finished-at="2023-10-14T08:24:14Z" duration-ms="1880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SimpleFormDemo -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:14Z" name="driverSetup" finished-at="2023-10-14T08:24:14Z" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:14Z" name="SetUp" finished-at="2023-10-14T08:24:19Z" duration-ms="4873" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[119.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="DragDropSliders()[pri:2, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:19Z" name="DragDropSliders" finished-at="2023-10-14T08:24:20Z" duration-ms="1492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DragDropSliders -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:20Z" name="driverSetup" finished-at="2023-10-14T08:24:20Z" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:20Z" name="SetUp" finished-at="2023-10-14T08:24:25Z" duration-ms="5034" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[119.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="InputFormSubmit()[pri:3, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:25Z" name="InputFormSubmit" finished-at="2023-10-14T08:24:31Z" duration-ms="5358" status="PASS">
+        <test-method signature="InputFormSubmit()[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T20:28:22Z" name="InputFormSubmit" finished-at="2023-10-14T20:28:28Z" duration-ms="5626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputFormSubmit -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T08:24:31Z" name="driverSetup" finished-at="2023-10-14T08:24:31Z" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@7c37508a]" started-at="2023-10-14T20:28:28Z" name="driverSetup" finished-at="2023-10-14T20:28:28Z" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
       </class> <!-- BaseLambda.ScenarioDemo -->
     </test> <!-- Chrome Test -->
-    <test started-at="2023-10-14T12:24:31Z" name="Safari Test" finished-at="2023-10-14T12:25:11Z" duration-ms="39908">
+    <test started-at="2023-10-15T00:28:28Z" name="Safari Test" finished-at="2023-10-15T00:28:52Z" duration-ms="23534">
       <class name="BaseLambda.ScenarioDemo">
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:31Z" name="SetUp" finished-at="2023-10-14T08:24:39Z" duration-ms="8571" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T20:28:28Z" name="SetUp" finished-at="2023-10-14T20:28:47Z" duration-ms="18607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,69 +61,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="SimpleFormDemo()[pri:1, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:39Z" name="SimpleFormDemo" finished-at="2023-10-14T08:24:42Z" duration-ms="2180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SimpleFormDemo -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:42Z" name="driverSetup" finished-at="2023-10-14T08:24:42Z" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:42Z" name="SetUp" finished-at="2023-10-14T08:24:49Z" duration-ms="7564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[16.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[macOS Ventura]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="DragDropSliders()[pri:2, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:49Z" name="DragDropSliders" finished-at="2023-10-14T08:24:52Z" duration-ms="3277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DragDropSliders -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:52Z" name="driverSetup" finished-at="2023-10-14T08:24:53Z" duration-ms="417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:24:53Z" name="SetUp" finished-at="2023-10-14T08:25:00Z" duration-ms="7261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[16.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[macOS Ventura]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="InputFormSubmit()[pri:3, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:25:00Z" name="InputFormSubmit" finished-at="2023-10-14T08:25:10Z" duration-ms="10137" status="PASS">
+        <test-method signature="InputFormSubmit()[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T20:28:47Z" name="InputFormSubmit" finished-at="2023-10-14T20:28:52Z" duration-ms="4788" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please fill out this field.] but found [Fill out this field]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please fill out this field.] but found [Fill out this field]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at BaseLambda.ScenarioDemo.InputFormSubmit(ScenarioDemo.java:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputFormSubmit -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T08:25:10Z" name="driverSetup" finished-at="2023-10-14T08:25:11Z" duration-ms="408" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BaseLambda.ScenarioDemo@4a8355dd]" started-at="2023-10-14T20:28:52Z" name="driverSetup" finished-at="2023-10-14T20:28:52Z" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
