@@ -20,4 +20,20 @@
       <class name="BaseLambda.ScenarioDemo"/>
     </classes>
   </test> <!-- Safari Test -->
+  <test parallel="classes" name="Safari Test(failed)">
+    <parameter name="browser" value="safari"/>
+    <parameter name="version" value="16.0"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <classes>
+      <class name="BaseLambda.ScenarioDemo">
+        <methods>
+          <include name="InputFormSubmit"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+          <include name="driverSetup"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- BaseLambda.ScenarioDemo -->
+    </classes>
+  </test> <!-- Safari Test(failed) -->
 </suite> <!-- Failed suite [Parallel Test Suite] -->

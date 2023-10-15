@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Safari Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 14 08:24:31 EDT 2023</td>
+<td>Started on:</td><td>Sat Oct 14 20:28:28 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>39 seconds (39908 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23534 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,27 +67,44 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BaseLambda.ScenarioDemo.DragDropSliders()'><b>DragDropSliders</b><br>Test class: BaseLambda.ScenarioDemo</td>
-<td></td>
-<td>3</td>
-<td>BaseLambda.ScenarioDemo@4a8355dd</td></tr>
-<tr>
 <td title='BaseLambda.ScenarioDemo.InputFormSubmit()'><b>InputFormSubmit</b><br>Test class: BaseLambda.ScenarioDemo</td>
-<td></td>
-<td>10</td>
-<td>BaseLambda.ScenarioDemo@4a8355dd</td></tr>
-<tr>
-<td title='BaseLambda.ScenarioDemo.SimpleFormDemo()'><b>SimpleFormDemo</b><br>Test class: BaseLambda.ScenarioDemo</td>
-<td></td>
-<td>2</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found [Fill out this field]
+	at BaseLambda.ScenarioDemo.InputFormSubmit(ScenarioDemo.java:146)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2109841981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2109841981'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found [Fill out this field]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at BaseLambda.ScenarioDemo.InputFormSubmit(ScenarioDemo.java:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>4</td>
 <td>BaseLambda.ScenarioDemo@4a8355dd</td></tr>
 </table><p>
 </body>
