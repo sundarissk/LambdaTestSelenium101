@@ -102,15 +102,11 @@ public class ScenarioDemo {
 		String ev = driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
 		System.out.println(ev);
 
-		/*
-		 * dragging to 95 value action.dragAndDropBy(val, 95, 0).build().perform();
-		 * 
-		 * String ev2 =
-		 * driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
-		 * System.out.println(ev2);
-		 * 
-		 * String eev2 = "70"; System.out.println("Assertion Pass for 70 Value");
-		 * Assert.assertEquals(ev2, eev2);
+		/*dragging to 95 value action.dragAndDropBy(val, 95, 0).build().perform();
+		 String ev2 =driver.findElement(By.xpath("//output[@id='rangeSuccess']")).getText();
+		 System.out.println(ev2);
+		 String eev2 = "70"; System.out.println("Assertion Pass for 70 Value");
+		 Assert.assertEquals(ev2, eev2);
 		 */
 
 		// dragging to 95 value
