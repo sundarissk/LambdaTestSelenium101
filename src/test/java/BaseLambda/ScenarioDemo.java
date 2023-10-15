@@ -72,13 +72,13 @@ public class ScenarioDemo {
 
 		String m = "Welcome to LambdaTest";
 
-		// “Enter Message” is sending
+		// â€œEnter Messageâ€ is sending
 		driver.findElement(By.id("user-message")).sendKeys(m);
 
-		// Click “Get Checked Value”.
+		// Click â€œGet Checked Valueâ€.
 		driver.findElement(By.id("showInput")).click();
 
-		// “Get Checked Value” Validation .
+		// â€œGet Checked Valueâ€ Validation .
 		String v = driver.findElement(By.xpath("//p[@id='message']")).getText();
 		Assert.assertEquals(v, m);
 		System.out.println("String Matches");
@@ -137,6 +137,14 @@ public class ScenarioDemo {
 		driver.findElement(By.xpath("//a[contains(text(),'Input Form Submit')]")).click();
 
 		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
+
+		// Validating tooltip message in form
+		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
+		String msg = driver.findElement(By.id("name")).getAttribute("validationMessage");
+		String emsg = "Please fill out this field.";
+		System.out.println(msg);
+		Assert.assertEquals(msg, emsg);
+		System.out.println("Validation Message Passed");
 
 		// Entering fields values in form
 		driver.findElement(By.id("name")).sendKeys("abcd");
